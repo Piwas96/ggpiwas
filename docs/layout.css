@@ -33,3 +33,7 @@ nav{
     background-color: #938B87;
     color: #ffffff;
 }
+.img_responsive{
+    width: 50%;
+    height: auto;
+}
