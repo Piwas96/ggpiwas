@@ -1,0 +1,40 @@
+.center {
+    text-align: center;
+}
+h1 {
+    color: #ffffff;
+}
+p {
+    color: #ffffff;
+}
+footer {
+    color: #ffffff;
+}
+body{
+    background-color: #595452;
+}
+nav{
+    background-color: #000000;
+    overflow: hidden;
+}
+.a_navbar{
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.a_navbar:hover{
+    background-color: #938B87;
+    color: #ffffff;
+}
+.a_navbar:active{
+    background-color: #938B87;
+    color: #ffffff;
+}
+.img_responsive{
+    width: 50%;
+    height: auto;
+    display: none;
+}
