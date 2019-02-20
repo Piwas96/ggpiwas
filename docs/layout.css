@@ -5,6 +5,7 @@ h1 {
     color: #ffffff;
 }
 p {
+    text-align: justify;
     color: #ffffff;
 }
 footer {
@@ -36,5 +37,4 @@ nav{
 .img_responsive{
     width: 50%;
     height: auto;
-    display: none;
 }
