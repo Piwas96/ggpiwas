@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+.grid{
+    text-align: center;
+    width: 410px;
+    height: 210px;
+}
+.pixelwhite{
+    width: 10px;
+    height: 10px;
+    float: left;
+    background-color: #ffffff;
+}
+.pixelblack{
+    width: 10px;
+    height: 10px;
+    float: left;
+    background-color: black;
+}
+.pixelred{
+    width: 10px;
+    height: 10px;
+    float: left;
+    background-color: red;
+}
+.pixelyellow{
+    width: 10px;
+    height: 10px;
+    float: left;
+    background-color: yellow;
+}
+
