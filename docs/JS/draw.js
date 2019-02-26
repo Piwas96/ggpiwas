@@ -2,13 +2,13 @@ var grid = document.getElementById('grid');
 var i = 1;
 
 function createGrid(){
-    /*Primer fila*/
+    /*1st row*/
     for(i=1;i<42;i++){  
         var div = document.createElement('div');
         div.setAttribute('class', 'pixelwhite');
         grid.append(div);
     }
-    /*Segunda Fila*/
+    /*2nd row*/
     for(i=1;i<42;i++){
         var div = document.createElement('div');
         if((i<20)||(i>26)){
@@ -19,7 +19,7 @@ function createGrid(){
         }
         grid.append(div);
     }
-    /*Tercera Fila*/
+    /*3rd row*/
     for(i=1;i<42;i++){
         var div = document.createElement('div');
         if((i<17)||(i>29)){
@@ -33,7 +33,7 @@ function createGrid(){
         }
         grid.append(div);
     }
-    /*Cuarta Fila*/
+    /*4th row*/
     for(i=1;i<42;i++){
         var div = document.createElement('div');
         if((i<13)||i>33){
@@ -47,7 +47,7 @@ function createGrid(){
         }
         grid.append(div);
     }
-    /*Quinta Fila*/
+    /*5th row*/
     for(i=1;i<42;i++){
         var div = document.createElement('div');
         if((i<11)||(i>35)){
@@ -61,7 +61,7 @@ function createGrid(){
         }
         grid.append(div);
     }
-    /*Sexta fila*/
+    /*6th row*/
     for(i=1;i<42;i++){
         var div = document.createElement('div');
         if((i<9)||(i>37)){
@@ -75,7 +75,7 @@ function createGrid(){
         }
         grid.append(div);
     }
-    /*Septima Fila*/
+    /*7th row*/
     for(i=1;i<42;i++){
         var div = document.createElement('div');
         if((i<8)||(i>38)){
@@ -89,7 +89,7 @@ function createGrid(){
         }
         grid.append(div);
     }
-    /*Octava Fila*/
+    /*8th row*/
     for(i=1;i<42;i++){
         var div = document.createElement('div');
         if((i<7)||(i>39)){
@@ -103,7 +103,7 @@ function createGrid(){
         }
         grid.append(div);
     }
-    /*Novena Fila*/
+    /*9th row*/
     for(i=1;i<42;i++){
         var div = document.createElement('div');
         if((i<6)||(i>40)){
@@ -117,7 +117,7 @@ function createGrid(){
         }
         grid.append(div);
     }
-    /*Decima Fila*/
+    /*10th row*/
     for(i=1;i<42;i++){
         var div = document.createElement('div');
         if((i<5)||(i>11 && i<13)||(i>33 && i<35)||(i>40)){
@@ -127,6 +127,116 @@ function createGrid(){
             div.setAttribute('class', 'pixelblack');
         }
         if((i>13 && i<15)||(i>16 && i<23)||(i>23 && i<29)||(i>30 && i<33)){
+            div.setAttribute('class', 'pixelyellow');
+        }
+        grid.append(div);
+    }
+    /*11th row*/
+    for(i=1;i<42;i++){
+        var div = document.createElement('div');
+        if((i<13)||(i>33)){
+            div.setAttribute('class', 'pixelwhite');
+        }
+        if((i>12 && i<14)||(i>32 && i< 34)){
+            div.setAttribute('class', 'pixelblack');
+        }
+        if(i>13 && i<33){
+            div.setAttribute('class', 'pixelyellow');
+        }
+        grid.append(div);
+    }
+    /*12th row*/
+    for(i=1;i<42;i++){
+        var div = document.createElement('div');
+        if((i<13)||(i>33)){
+            div.setAttribute('class', 'pixelwhite');
+        }
+        if((i>12 && i<14)||(i>21 && i<25)||(i>32 && i<34)){
+            div.setAttribute('class', 'pixelblack');
+        }
+        if((i>13 && i<22)||(i>24 && i<33)){
+            div.setAttribute('class', 'pixelyellow');
+        }
+        grid.append(div);
+    }
+    /*13th row*/
+    for(i=1;i<42;i++){
+        var div = document.createElement('div');
+        if((i<12)||(i>34)){
+            div.setAttribute('class', 'pixelwhite');
+        }
+        if((i>11 && i<13)||(i>20 && i<26)||(i>33 && i<35)){
+            div.setAttribute('class', 'pixelblack');
+        }
+        if((i>14 && i<17)||(i>29 && i<32)){
+            div.setAttribute('class', 'pixelred');
+        }
+        if((i>12 && i<15)||(i>16 && i<21)||(i>25 && i<30)||(i>31 && i<34)){
+            div.setAttribute('class', 'pixelyellow');
+        }
+        grid.append(div);
+    }
+    /*14th row*/
+    for(i=1;i<42;i++){
+        var div = document.createElement('div');
+        if((i<2)||(i>7 && i<12)||(i>34)){
+            div.setAttribute('class', 'pixelwhite');
+        }
+        if((i>1 && i<8)||(i>11 && i<13)||(i>20 && i<22)||(i>24 && i<26)||(i>33 && i<35)){
+            div.setAttribute('class', 'pixelblack');
+        }
+        if((i>13 && i<18)||(i>21 && i<25)||(i>28 && i<33)){
+            div.setAttribute('class', 'pixelred');
+        }
+        if((i>12 && i<14)||(i>17 && i<21)||(i>25 && i<29)||(i>32 && i<34)){
+            div.setAttribute('class', 'pixelyellow');
+        }
+        grid.append(div);
+    }
+    /*15th row*/
+    for(i=1;i<42;i++){
+        var div = document.createElement('div');
+        if((i<2)||(i>10 && i<12)||(i>34)){
+            div.setAttribute('class', 'pixelwhite');
+        }
+        if((i>1 && i<3)||(i>7 && i<11)||(i>11 && i<13)||(i>20 && i<22)||(i>24 && i<26)||(i>33 && i<35)){
+            div.setAttribute('class', 'pixelblack');
+        }
+        if((i>13 && i<18)||(i>21 && i<25)||(i>28 && i<33)){
+            div.setAttribute('class', 'pixelred');
+        }
+        if((i>2 && i<8)||(i>12 && i<14)||(i>17 && i<21)||(i>25 && i<29)||(i>32 && i<34)){
+            div.setAttribute('class', 'pixelyellow');
+        }
+        grid.append(div);
+    }
+    /*16th row*/
+    for(i=1;i<42;i++){
+        var div = document.createElement('div');
+        if((i<2)||(i>34)){
+            div.setAttribute('class', 'pixelwhite');
+        }
+        if((i>1 && i<3)||(i>10 && i<13)||(i>20 && i<22)||(i>24 && i<28)||(i>33 && i<35)){
+            div.setAttribute('class', 'pixelblack');
+        }
+        if((i>14 && i<17)||(i>21 && i<25)||(i>29 && i<32)){
+            div.setAttribute('class', 'pixelred');
+        }
+        if((i>2 && i<11)||(i>12 && i<15)||(i>16 && i<21)||(i>27 && i<30)||(i>31 && i<34)){
+            div.setAttribute('class', 'pixelyellow');
+        }
+        grid.append(div);
+    }
+    /*17th row*/
+    for(i=1;i<42;i++){
+        var div = document.createElement('div');
+        if((i<2)||(i>34)){
+            div.setAttribute('class', 'pixelwhite');
+        }
+        if((i>1 && i<3)||(i>11 && i<13)||(i>21 && i<26)||(i>27 && i<29)||(i>33 && i<35)){
+            div.setAttribute('class', 'pixelblack');
+        }
+        if((i>2 && i<12)||(i>12 && i<22)||(i>25 && i<28)||(i>28 && i<34)){
             div.setAttribute('class', 'pixelyellow');
         }
         grid.append(div);
