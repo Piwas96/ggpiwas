@@ -241,5 +241,151 @@ function createGrid(){
         }
         grid.append(div);
     }
+    /*18th row*/
+    for(i=1;i<42;i++){
+        var div = document.createElement('div');
+        if((i<2)||(i>33)){
+            div.setAttribute('class', 'pixelwhite');
+        }
+        if((i==2)||(i==13)||(i==25)||(i==29)||(i==33)){
+            div.setAttribute('class', 'pixelblack');
+        }
+        if((i>2 && i<13)||(i>13 && i<25)||(i>25 && i<29)||(i>29 && i<33)){
+            div.setAttribute('class', 'pixelyellow');
+        }
+        grid.append(div);
+    }
+    /*19th row*/
+    for(i=1;i<42;i++){
+        var div = document.createElement('div');
+        if((i==1)||(i>33)){
+            div.setAttribute('class', 'pixelwhite');
+        }
+        if((i==2)||(i==13)||(i==26)||(i==30)||(i==33)){
+            div.setAttribute('class', 'pixelblack');
+        }
+        if((i>2 && i<13)||(i>13 && i<26)||(i>26 && i<30)||(i>30 && i<33)){
+            div.setAttribute('class', 'pixelyellow');
+        }
+        grid.append(div);
+    }
+    /*20th row*/
+    for(i=1;i<42;i++){
+        var div = document.createElement('div');
+        if((i==1)||(i>33)){
+            div.setAttribute('class', 'pixelwhite');
+        }
+        if((i>1 && i<6)||(i==13)||(i==27)||(i>30 && i<34)){
+            div.setAttribute('class', 'pixelblack');
+        }
+        if((i>5 && i<13)||(i>13 && i<27)||(i>27 && i<31)){
+            div.setAttribute('class', 'pixelyellow');
+        }
+        grid.append(div);
+    }
+    /*21st row*/
+    for(i=1;i<42;i++){
+        var div = document.createElement('div');
+        if((i<6)||(i>33)){
+            div.setAttribute('class', 'pixelwhite');
+        }
+        if((i>5 && i<9)||(i==13)||(i==27)||(i==31)||(i==33)){
+            div.setAttribute('class', 'pixelblack');
+        }
+        if((i>8 && i<13)||(i>13 && i<27)||(i>27 && i<31)||(i==32)){
+            div.setAttribute('class', 'pixelyellow');
+        }
+        grid.append(div);
+    }
+    /*22nd row*/
+    for(i=1;i<42;i++){
+        var div = document.createElement('div');
+        if((i<9)||(i>33)){
+            div.setAttribute('class', 'pixelwhite');
+        }
+        if((i>8 && i<11)||(i==13)||(i==18)||(i==28)||(i==33)){
+            div.setAttribute('class', 'pixelblack');
+        }
+        if((i>10 && i<13)||(i>13 && i<18)||(i>18 && i<28)||(i>28 && i<33)){
+            div.setAttribute('class', 'pixelyellow');
+        }
+        grid.append(div);
+    }
+    /*23rd row*/
+    for(i=1;i<42;i++){
+        var div = document.createElement('div');
+        if((i<7)||(i>33)){
+            div.setAttribute('class', 'pixelwhite');
+        }
+        if((i>6 && i<9)||(i==13)||(i==18)||(i==28)||(i==33)){
+            div.setAttribute('class', 'pixelblack');
+        }
+        if((i>8 && i<13)||(i>13 && i<18)||(i>18 && i<28)||(i>28 && i<33)){
+            div.setAttribute('class', 'pixelyellow');
+        }
+        grid.append(div);
+    }
+    /*24th row*/
+    for(i=1;i<42;i++){
+        var div = document.createElement('div');
+        if((i<5)||(i>34)){
+            div.setAttribute('class', 'pixelwhite');
+        }
+        if((i>4 && i<7)||(i>9 && i<13)||(i==18)||(i==34)){
+            div.setAttribute('class', 'pixelblack');
+        }
+        if((i>6 && i<10)||(i>12 && i<18)||(i>18 && i<34)){
+            div.setAttribute('class', 'pixelyellow');
+        }
+        grid.append(div);
+    }
+    /*25th row*/
+    for(i=1;i<42;i++){
+        var div = document.createElement('div');
+        if((i<4)||(i>34)){
+            div.setAttribute('class', 'pixelwhite');
+        }
+        if((i==4)||(i>7 && i<13)||(i==15)||(i==19)||(i==34)){
+            div.setAttribute('class', 'pixelblack');
+        }
+        if((i>4 && i<8)||(i>12 && i<15)||(i>15 && i<19)||(i>19 && i<34)){
+            div.setAttribute('class', 'pixelyellow');
+        }
+        grid.append(div);
+    }
+    /*26th row*/
+    for(i=1;i<42;i++){
+        var div = document.createElement('div');
+        if((i<5)||(i>34)){
+            div.setAttribute('class', 'pixelwhite');
+        }
+        if((i>4 && i<7)||(i>9 && i<13)||(i==15)||(i==19)||(i==34)){
+            div.setAttribute('class', 'pixelblack');
+        }
+        if((i>6 && i<10)||(i>12 && i<15)||(i>15 && i<19)||(i>19 && i<34)){
+            div.setAttribute('class', 'pixelyellow');
+        }
+        grid.append(div);
+    }
+    /*27th row*/
+    for(i=1;i<42;i++){
+        var div = document.createElement('div');
+        if((i<7)||(i>34)){
+            div.setAttribute('class', 'pixelwhite');
+        }
+        if((i>6 && i<9)||(i==12)||(i==16)||(i==19)||(i==34)){
+            div.setAttribute('class', 'pixelblack');
+        }
+        if((i>8 && i<12)||(i>12 && i<16)||(i>16 && i<19)||(i>19 && i<34)){
+            div.setAttribute('class', 'pixelyellow');
+        }
+        grid.append(div);
+    }
+    /*28th row*/
+    for(i=1;i<42;i++){
+        var div = document.createElement('div');
+        div.setAttribute('class', 'pixelwhite');
+        grid.append(div);
+    }
 }
 createGrid();
