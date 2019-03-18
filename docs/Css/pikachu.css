@@ -2,32 +2,27 @@ h1{
     text-align: center;
 }
 .grid{
-    text-align: center;
     width: 410px;
     height: 280px;
 }
 .pixelwhite{
-    width: 10px;
-    height: 10px;
-    float: left;
     background-color: #ffffff;
 }
 .pixelblack{
-    width: 10px;
-    height: 10px;
-    float: left;
     background-color: black;
 }
 .pixelred{
-    width: 10px;
-    height: 10px;
-    float: left;
     background-color: red;
 }
 .pixelyellow{
-    width: 10px;
-    height: 10px;
-    float: left;
     background-color: yellow;
+}
+.pixelblack, .pixelwhite, .pixelred, .pixelyellow{
+    width: 8px;
+    height: 8px;
+    padding-right, padding-left, padding-top, padding-bottom: 1px;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
 }
 
