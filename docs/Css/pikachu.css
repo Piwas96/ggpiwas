@@ -5,6 +5,14 @@ h1{
     width: 410px;
     height: 280px;
 }
+.pixelblack, .pixelwhite, .pixelred, .pixelyellow{
+    width: 8px;
+    height: 8px;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    padding-block-start: 1px;
+}
 .pixelwhite{
     background-color: #ffffff;
 }
@@ -16,13 +24,5 @@ h1{
 }
 .pixelyellow{
     background-color: yellow;
-}
-.pixelblack, .pixelwhite, .pixelred, .pixelyellow{
-    width: 8px;
-    height: 8px;
-    padding-right, padding-left, padding-top, padding-bottom: 1px;
-    border-style: solid;
-    border-width: 1px;
-    float: left;
 }
 
