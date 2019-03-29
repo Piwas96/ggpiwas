@@ -13,6 +13,8 @@ footer {
 }
 body{
     background-color: #595452;
+    margin: 0;
+    padding: 0;
 }
 nav{
     background-color: #000000;
